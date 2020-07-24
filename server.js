@@ -54,6 +54,6 @@ app.post("/api/notes/", function (req,res){
 })
 
 
-app.listen(3000, function(){
+app.listen(PORT, function(){
     console.log('alive on 3000')
 })
